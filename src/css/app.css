@@ -1,3 +1,9 @@
+@import 'font.css';
+
+*, *::before, *::after {
+  font-family: Gotham Rounded, sans-serif;
+}
+
 .ProseMirror {
   position: relative;
 }
@@ -300,7 +306,7 @@ li.ProseMirror-selectednode:after {
   margin-top: 5px;
   display: none;
 }
-#editor, .editor {
+#editor, #editor2, .editor {
   background: white;
   color: black;
   background-clip: padding-box;
